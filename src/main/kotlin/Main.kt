@@ -1,11 +1,9 @@
 fun main(args: Array<String>) {
 
-    val solution = BirthdayCakeCandles()
+    val solution = TimeConversion()
     println(
-        solution.birthdayCakeCandles(
-            arrayOf(
-                4, 1, 3, 4, 3, 3, 5, 4
-            )
+        solution.timeConversion(
+            "12:05:45AM"
         )
     )
 }
